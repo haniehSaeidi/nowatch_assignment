@@ -77,7 +77,7 @@ const HomePage = () => {
                 onClick={() => handleRedirectToDogImages()}
                 className="inline-flex w-full items-center justify-center p-5 text-base rounded-lg hover:bg-gray-100 dark:bg-gray-900 dark:hover:bg-gray-700"
               >
-                <span>Get more images</span>
+                <span className="mr-2">Get more images </span>
                 <IconRightArrow />
               </a>
             </div>
