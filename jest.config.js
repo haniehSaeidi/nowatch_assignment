@@ -11,6 +11,5 @@ module.exports = {
   },
   transform: {
     "^.+\\.(js|jsx|ts|tsx)$": ["babel-jest", { presets: ["next/babel"] }],
-    "\\.(css|less|scss|sass)$": "<rootDir>/cssTransform.js",
   },
 };

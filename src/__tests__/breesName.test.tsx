@@ -1,7 +1,7 @@
 import React from "react";
 import { render, waitFor, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import BreedPage from "./[breedName]";
+import BreedPage from "../pages/breed/[breedName]";
 import * as nextRouter from "next/router";
 import * as dogsApi from "api/dogsApi";
 

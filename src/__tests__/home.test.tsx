@@ -1,6 +1,6 @@
 import { render, fireEvent, waitFor, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import HomePage from "./index";
+import HomePage from "../pages/index";
 import * as dogsApi from "api/dogsApi";
 
 jest.mock("api/dogsApi");
