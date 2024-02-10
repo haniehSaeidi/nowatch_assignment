@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🤖 Cultivation Dashboard
 
-## Getting Started
+![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![image](https://img.shields.io/badge/axios-671ddf?&style=for-the-badge&logo=axios&logoColor=white) ![image](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E) ![image](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white) ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 
-First, run the development server:
+## Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- [The project's purpose](#The-project's-purpose)
+- [What tools were used to create this project](#What-tools-were-used-to-create-this-project)
+- [how to run the project](#How-to-run-the-project)
+- [Final step](#Final-step)
+
+## The project's purpose
+
+The Random Dog Generator is a web app that presents random dog images with each click, featuring breed-specific pages for further exploration and learning about different dog breeds in a visually engaging way.
+
+## What tools were used to create this project
+
+| Technology  | 🔗                                                           |
+| ----------- | ------------------------------------------------------------ |
+| React       | [[Github Link](https://github.com/facebook/react)]           |
+| Next        | [[Github Link](https://github.com/vercel/next.js)]           |
+| TailwindCss | [[Github Link](https://github.com/tailwindlabs/tailwindcss)] |
+| Zustand     | [[Github Link](https://github.com/pmndrs/zustand)]           |
+| Prettier    | [[Github Link](https://github.com/prettier/prettier)]        |
+| Eslint      | [[Github Link](https://github.com/eslint/eslint)]            |
+| TypeScript  | [[Github Link](https://github.com/microsoft/TypeScript)]     |
+| Axios       | [[Github Link](https://github.com/axios/axios)]              |
+| Jest        | [[Github Link](https://github.com/jestjs/jest)]              |
+
+## How to Run the Project
+
+After you have pulled this project, navigate to the root of the project. <br/>
+Ensure you have **Node.js** installed on your system. Begin by running the command:
+
+```commandline
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, to run the project:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```commandline
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+For build the app:
 
-## Learn More
+```commandline
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+For test the app:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```commandline
+npm test
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Final step
 
-## Deploy on Vercel
+##### Be Happy Even if Things Aren’t Perfect Now. 🎉🎉🎉
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![](https://i1.wp.com/justmaths.co.uk/wp-content/uploads/2016/10/celebration-gif.gif)
